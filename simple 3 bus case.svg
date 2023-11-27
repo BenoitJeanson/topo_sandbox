@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="4.1889152"
-     inkscape:cx="291.96103"
-     inkscape:cy="54.906817"
-     inkscape:window-width="1680"
-     inkscape:window-height="1050"
-     inkscape:window-x="3008"
-     inkscape:window-y="1080"
+     inkscape:zoom="4.6286466"
+     inkscape:cx="169.0559"
+     inkscape:cy="234.62582"
+     inkscape:window-width="3008"
+     inkscape:window-height="1692"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="g4862"
      showguides="true">
@@ -50,6 +50,46 @@
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1175"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="5.6666665"
+       markerHeight="5.6666665"
+       viewBox="0 0 5.6666667 5.6666667"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path1173"
+         sodipodi:nodetypes="sssss" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="5.6666665"
+       markerHeight="5.6666665"
+       viewBox="0 0 5.6666667 5.6666667"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="Dot1"
+         sodipodi:nodetypes="sssss" />
+    </marker>
     <marker
        style="overflow:visible"
        id="RoundedArrow"
@@ -107,10 +147,6 @@
          style="fill:none;stroke:#000000;stroke-width:0.264999"
          d="M 100.54167,74.083332 V 95.249999"
          id="path3478" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264999"
-         d="m 100.54167,37.041666 h 5.29166 v 42.333333 h -5.29166"
-         id="path3480" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264999;marker-end:url(#RoundedArrow)"
          d="m 100.54167,26.458333 h 15.875"
@@ -201,6 +237,19 @@
          d="m 39.687501,58.208334 c 0,0 0.387473,-2.645834 1.322916,-2.645834 0.935443,0 1.71039,5.291667 2.645834,5.291667 0.935443,0 1.322916,-2.645833 1.322916,-2.645833"
          id="path4739"
          sodipodi:nodetypes="czzc" />
+      <path
+         style="fill:#ff0000;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#marker1175);marker-end:url(#Dot)"
+         d="m 105.83333,60.854167 4.23334,-4.233333"
+         id="path376"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         d="m 100.54167,79.375 h 5.29166 V 60.854167"
+         id="path1245" />
+      <path
+         style="fill:none;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         d="M 105.83333,55.562501 V 37.041668 h -5.29166"
+         id="path1301" />
     </g>
   </g>
 </svg>
