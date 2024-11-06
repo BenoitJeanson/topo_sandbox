@@ -71689,3 +71689,2840 @@ Optimal solution found (tolerance 1.00e-04)
 Best objective 2.666666666667e+00, best bound 2.666666666667e+00, gap 0.0000%
 
 User-callback calls 1175, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:40:02 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:40:27 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:40:28 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 299 rows, 156 columns and 1506 nonzeros
+Model fingerprint: 0x0dda9ef3
+Variable types: 113 continuous, 43 integer (43 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 137 rows and 69 columns
+Presolve time: 0.01s
+Presolved: 162 rows, 87 columns, 674 nonzeros
+Variable types: 67 continuous, 20 integer (20 binary)
+Found heuristic solution: objective 6.7981365
+
+Root relaxation: objective 5.803667e+00, 94 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.80367    0    2    6.79814    5.80367  14.6%     -    0s
+H    0     0                       5.9670456    5.80367  2.74%     -    0s
+     0     0    5.80367    0    3    5.96705    5.80367  2.74%     -    0s
+H    0     0                       5.9117319    5.80367  1.83%     -    0s
+H    0     0                       5.8874542    5.80367  1.42%     -    0s
+H    0     0                       5.8516449    5.80367  0.82%     -    0s
+H    0     0                       5.8218139    5.80367  0.31%     -    0s
+H    0     0                       5.8036667    5.80367  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  MIR: 11
+
+Explored 1 nodes (147 simplex iterations) in 0.03 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 5.80367 5.82181 5.85164 ... 6.79814
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.803666666667e+00, best bound 5.803666666667e+00, gap 0.0000%
+
+User-callback calls 412, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:41:03 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:41:12 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:41:12 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2355 rows, 929 columns and 9566 nonzeros
+Model fingerprint: 0xe3281398
+Variable types: 529 continuous, 400 integer (400 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 1224 rows and 491 columns
+Presolve time: 0.03s
+Presolved: 1131 rows, 438 columns, 5033 nonzeros
+Variable types: 271 continuous, 167 integer (167 binary)
+Found heuristic solution: objective 7.4467623
+
+Root relaxation: objective 5.803667e+00, 774 iterations, 0.03 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.80367    0   44    7.44676    5.80367  22.1%     -    0s
+H    0     0                       6.4060987    5.80367  9.40%     -    0s
+H    0     0                       6.3856523    5.80367  9.11%     -    0s
+     0     0    5.80367    0   69    6.38565    5.80367  9.11%     -    0s
+H    0     0                       5.8181523    5.80367  0.25%     -    0s
+     0     0    5.80872    0   15    5.81815    5.80872  0.16%     -    0s
+     0     0    5.80876    0   15    5.81815    5.80876  0.16%     -    0s
+H    0     0                       5.8138559    5.80876  0.09%     -    0s
+H    0     0                       5.8137752    5.80876  0.09%     -    0s
+     0     0    5.81310    0   30    5.81378    5.81310  0.01%     -    0s
+
+Cutting planes:
+  Cover: 2
+  MIR: 9
+  Inf proof: 1
+  Zero half: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (2099 simplex iterations) in 0.30 seconds (0.30 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 5.81378 5.81386 5.81815 ... 7.44676
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.813775187819e+00, best bound 5.813775187819e+00, gap 0.0000%
+
+User-callback calls 703, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:41:24 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:41:24 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2355 rows, 910 columns and 9547 nonzeros
+Model fingerprint: 0x342b8fa1
+Variable types: 510 continuous, 400 integer (400 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 1218 rows and 491 columns
+Presolve time: 0.03s
+Presolved: 1137 rows, 419 columns, 4944 nonzeros
+Variable types: 252 continuous, 167 integer (167 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 414 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   33    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.4104763    1.15642  18.0%     -    0s
+     0     0    1.15642    0   52    1.41048    1.15642  18.0%     -    0s
+H    0     0                       1.3881448    1.15642  16.7%     -    0s
+     0     0    1.15642    0   51    1.38814    1.15642  16.7%     -    0s
+     0     0    1.15642    0   16    1.38814    1.15642  16.7%     -    0s
+     0     0    1.15642    0   16    1.38814    1.15642  16.7%     -    0s
+H    0     0                       1.3061589    1.15642  11.5%     -    0s
+     0     0    1.15642    0    2    1.30616    1.15642  11.5%     -    0s
+     0     0    1.15642    0    2    1.30616    1.15642  11.5%     -    0s
+     0     0    1.15642    0    7    1.30616    1.15642  11.5%     -    0s
+H    0     0                       1.3018629    1.15642  11.2%     -    0s
+     0     0    1.15642    0    6    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     2    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+H   80    44                       1.2485700    1.15642  7.38%  30.8    0s
+
+Cutting planes:
+  Learned: 1
+  Cover: 4
+  Implied bound: 148
+  Clique: 3
+  MIR: 42
+  Flow cover: 2
+  RLT: 3
+  Relax-and-lift: 16
+  BQP: 3
+
+Explored 385 nodes (10698 simplex iterations) in 0.46 seconds (0.54 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.24857 1.30186 1.30616 ... 1.56321
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.248570007058e+00, best bound 1.248570007058e+00, gap 0.0000%
+
+User-callback calls 1467, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:42:35 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:42:35 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3299 rows, 1278 columns and 11391 nonzeros
+Model fingerprint: 0xf3eae2ce
+Variable types: 454 continuous, 824 integer (824 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2143 rows and 916 columns
+Presolve time: 0.07s
+Presolved: 1156 rows, 362 columns, 4994 nonzeros
+Variable types: 251 continuous, 111 integer (111 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 410 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   38    1.56321    1.15642  26.0%     -    0s
+     0     0    1.15642    0   57    1.56321    1.15642  26.0%     -    0s
+     0     0    1.15642    0   57    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.3061589    1.15642  11.5%     -    0s
+     0     0    1.15642    0   14    1.30616    1.15642  11.5%     -    0s
+H    0     0                       1.2825155    1.15642  9.83%     -    0s
+H    0     0                       1.2485700    1.15642  7.38%     -    0s
+     0     0    1.15642    0   15    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    1    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    1    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    2    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     2    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+
+Cutting planes:
+  Learned: 10
+  Gomory: 2
+  Cover: 5
+  Implied bound: 158
+  MIR: 39
+  Inf proof: 2
+  RLT: 19
+  Relax-and-lift: 11
+  BQP: 1
+  PSD: 1
+
+Explored 375 nodes (12181 simplex iterations) in 0.49 seconds (0.54 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 1.24857 1.28252 1.30616 1.56321 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.248570007058e+00, best bound 1.248570007058e+00, gap 0.0000%
+
+User-callback calls 1441, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:43:19 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:43:19 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2355 rows, 910 columns and 9547 nonzeros
+Model fingerprint: 0x342b8fa1
+Variable types: 510 continuous, 400 integer (400 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 1218 rows and 491 columns
+Presolve time: 0.03s
+Presolved: 1137 rows, 419 columns, 4944 nonzeros
+Variable types: 252 continuous, 167 integer (167 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 414 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   33    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.4104763    1.15642  18.0%     -    0s
+     0     0    1.15642    0   52    1.41048    1.15642  18.0%     -    0s
+H    0     0                       1.3881448    1.15642  16.7%     -    0s
+     0     0    1.15642    0   51    1.38814    1.15642  16.7%     -    0s
+     0     0    1.15642    0   16    1.38814    1.15642  16.7%     -    0s
+     0     0    1.15642    0   16    1.38814    1.15642  16.7%     -    0s
+H    0     0                       1.3061589    1.15642  11.5%     -    0s
+     0     0    1.15642    0    2    1.30616    1.15642  11.5%     -    0s
+     0     0    1.15642    0    2    1.30616    1.15642  11.5%     -    0s
+     0     0    1.15642    0    7    1.30616    1.15642  11.5%     -    0s
+H    0     0                       1.3018629    1.15642  11.2%     -    0s
+     0     0    1.15642    0    6    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     2    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+H   80    44                       1.2485700    1.15642  7.38%  30.8    0s
+
+Cutting planes:
+  Learned: 1
+  Cover: 4
+  Implied bound: 148
+  Clique: 3
+  MIR: 42
+  Flow cover: 2
+  RLT: 3
+  Relax-and-lift: 16
+  BQP: 3
+
+Explored 385 nodes (10698 simplex iterations) in 0.45 seconds (0.54 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.24857 1.30186 1.30616 ... 1.56321
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.248570007058e+00, best bound 1.248570007058e+00, gap 0.0000%
+
+User-callback calls 1473, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:45:11 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:45:11 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2155 rows, 910 columns and 9147 nonzeros
+Model fingerprint: 0x1e0e2ce9
+Variable types: 510 continuous, 400 integer (400 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 1646 rows and 632 columns
+Presolve time: 0.01s
+Presolved: 509 rows, 278 columns, 1903 nonzeros
+Variable types: 202 continuous, 76 integer (76 binary)
+Found heuristic solution: objective 1.5808685
+
+Root relaxation: objective 1.156417e+00, 206 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0    9    1.58087    1.15642  26.8%     -    0s
+     0     0    1.15642    0   10    1.58087    1.15642  26.8%     -    0s
+H    0     0                       1.2485700    1.15642  7.38%     -    0s
+     0     0    1.15642    0    8    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    9    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    9    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    6    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    6    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    6    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    6    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    6    1.24857    1.15642  7.38%     -    0s
+     0     2    1.15642    0    6    1.24857    1.15642  7.38%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 2
+  Implied bound: 32
+  MIR: 31
+  RLT: 2
+  Relax-and-lift: 8
+  PSD: 1
+
+Explored 270 nodes (3824 simplex iterations) in 0.15 seconds (0.13 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.24857 1.58087 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.248570007058e+00, best bound 1.248570007058e+00, gap 0.0000%
+
+User-callback calls 1180, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:45:24 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:45:24 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2699 rows, 1158 columns and 8386 nonzeros
+Model fingerprint: 0x3194a758
+Variable types: 354 continuous, 804 integer (804 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2673 rows and 1105 columns
+Presolve time: 0.00s
+Presolved: 26 rows, 53 columns, 103 nonzeros
+Variable types: 53 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.563209e+00, 13 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.5632095    1.56321  0.00%     -    0s
+
+Explored 1 nodes (13 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.56321 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.563209469852e+00, best bound 1.563209469852e+00, gap 0.0000%
+
+User-callback calls 472, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:48:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:48:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2699 rows, 1158 columns and 8386 nonzeros
+Model fingerprint: 0x3194a758
+Variable types: 354 continuous, 804 integer (804 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2673 rows and 1105 columns
+Presolve time: 0.01s
+Presolved: 26 rows, 53 columns, 103 nonzeros
+Variable types: 53 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.563209e+00, 13 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.5632095    1.56321  0.00%     -    0s
+
+Explored 1 nodes (13 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.56321 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.563209469852e+00, best bound 1.563209469852e+00, gap 0.0000%
+
+User-callback calls 475, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:48:48 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:51:11 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:51:44 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:52:31 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:52:31 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2811 rows, 1189 columns and 8886 nonzeros
+Model fingerprint: 0x74e00773
+Variable types: 374 continuous, 815 integer (815 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2728 rows and 1118 columns
+Presolve time: 0.01s
+Presolved: 83 rows, 71 columns, 275 nonzeros
+Variable types: 70 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.2273279
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.22733 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227327896482e+00, best bound 1.227327896482e+00, gap 0.0000%
+
+User-callback calls 815, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:52:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:52:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3411 rows, 1309 columns and 11891 nonzeros
+Model fingerprint: 0x96cdd1c6
+Variable types: 474 continuous, 835 integer (835 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 1872 rows and 822 columns
+Presolve time: 0.02s
+Presolved: 1539 rows, 487 columns, 6040 nonzeros
+Variable types: 271 continuous, 216 integer (216 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 575 iterations, 0.01 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   46    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.3560030    1.15642  14.7%     -    0s
+     0     0    1.15642    0  121    1.35600    1.15642  14.7%     -    0s
+     0     0    1.15642    0  118    1.35600    1.15642  14.7%     -    0s
+H    0     0                       1.3124814    1.15642  11.9%     -    0s
+     0     0    1.15642    0  113    1.31248    1.15642  11.9%     -    0s
+     0     0    1.15642    0   33    1.31248    1.15642  11.9%     -    0s
+     0     0    1.15642    0   23    1.31248    1.15642  11.9%     -    0s
+H    0     0                       1.2899424    1.15642  10.4%     -    0s
+     0     0    1.15642    0   23    1.28994    1.15642  10.4%     -    0s
+H    0     0                       1.2202771    1.15642  5.23%     -    0s
+H    0     0                       1.2126850    1.15642  4.64%     -    0s
+     0     0    1.15642    0    4    1.21269    1.15642  4.64%     -    0s
+     0     0    1.15642    0    4    1.21269    1.15642  4.64%     -    0s
+H    0     0                       1.2020927    1.15642  3.80%     -    0s
+     0     0    1.15642    0    3    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+H    0     0                       1.1994647    1.15642  3.59%     -    0s
+     0     2    1.15642    0    4    1.19946    1.15642  3.59%     -    0s
+*  114    50              15       1.1613555    1.15642  0.43%  37.8    0s
+
+Cutting planes:
+  Cover: 4
+  Implied bound: 76
+  Clique: 1
+  MIR: 26
+  Flow cover: 1
+  GUB cover: 2
+  Inf proof: 2
+  RLT: 1
+  Relax-and-lift: 15
+  BQP: 1
+
+Explored 312 nodes (11440 simplex iterations) in 0.59 seconds (0.64 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 9: 1.16136 1.19946 1.20209 ... 1.56321
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.161355475446e+00, best bound 1.161355475446e+00, gap 0.0000%
+
+User-callback calls 1324, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:53:17 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:53:17 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2355 rows, 910 columns and 9547 nonzeros
+Model fingerprint: 0x342b8fa1
+Variable types: 510 continuous, 400 integer (400 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 1218 rows and 491 columns
+Presolve time: 0.02s
+Presolved: 1137 rows, 419 columns, 4944 nonzeros
+Variable types: 252 continuous, 167 integer (167 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 414 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   33    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.4104763    1.15642  18.0%     -    0s
+     0     0    1.15642    0   52    1.41048    1.15642  18.0%     -    0s
+H    0     0                       1.3881448    1.15642  16.7%     -    0s
+     0     0    1.15642    0   51    1.38814    1.15642  16.7%     -    0s
+     0     0    1.15642    0   16    1.38814    1.15642  16.7%     -    0s
+     0     0    1.15642    0   16    1.38814    1.15642  16.7%     -    0s
+H    0     0                       1.3061589    1.15642  11.5%     -    0s
+     0     0    1.15642    0    2    1.30616    1.15642  11.5%     -    0s
+     0     0    1.15642    0    2    1.30616    1.15642  11.5%     -    0s
+     0     0    1.15642    0    7    1.30616    1.15642  11.5%     -    0s
+H    0     0                       1.3018629    1.15642  11.2%     -    0s
+     0     0    1.15642    0    6    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     0    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+     0     2    1.15642    0    7    1.30186    1.15642  11.2%     -    0s
+H   80    44                       1.2485700    1.15642  7.38%  30.8    0s
+
+Cutting planes:
+  Learned: 1
+  Cover: 4
+  Implied bound: 148
+  Clique: 3
+  MIR: 42
+  Flow cover: 2
+  RLT: 3
+  Relax-and-lift: 16
+  BQP: 3
+
+Explored 385 nodes (10698 simplex iterations) in 0.45 seconds (0.54 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.24857 1.30186 1.30616 ... 1.56321
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.248570007058e+00, best bound 1.248570007058e+00, gap 0.0000%
+
+User-callback calls 1471, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:53:53 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:53:53 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3411 rows, 1309 columns and 11891 nonzeros
+Model fingerprint: 0x96cdd1c6
+Variable types: 474 continuous, 835 integer (835 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 1872 rows and 822 columns
+Presolve time: 0.02s
+Presolved: 1539 rows, 487 columns, 6040 nonzeros
+Variable types: 271 continuous, 216 integer (216 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 575 iterations, 0.02 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   46    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.3560030    1.15642  14.7%     -    0s
+     0     0    1.15642    0  121    1.35600    1.15642  14.7%     -    0s
+     0     0    1.15642    0  118    1.35600    1.15642  14.7%     -    0s
+H    0     0                       1.3124814    1.15642  11.9%     -    0s
+     0     0    1.15642    0  113    1.31248    1.15642  11.9%     -    0s
+     0     0    1.15642    0   33    1.31248    1.15642  11.9%     -    0s
+     0     0    1.15642    0   23    1.31248    1.15642  11.9%     -    0s
+H    0     0                       1.2899424    1.15642  10.4%     -    0s
+     0     0    1.15642    0   23    1.28994    1.15642  10.4%     -    0s
+H    0     0                       1.2202771    1.15642  5.23%     -    0s
+H    0     0                       1.2126850    1.15642  4.64%     -    0s
+     0     0    1.15642    0    4    1.21269    1.15642  4.64%     -    0s
+     0     0    1.15642    0    4    1.21269    1.15642  4.64%     -    0s
+H    0     0                       1.2020927    1.15642  3.80%     -    0s
+     0     0    1.15642    0    3    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+     0     0    1.15642    0    4    1.20209    1.15642  3.80%     -    0s
+H    0     0                       1.1994647    1.15642  3.59%     -    0s
+     0     2    1.15642    0    4    1.19946    1.15642  3.59%     -    0s
+*  114    50              15       1.1613555    1.15642  0.43%  37.8    0s
+
+Cutting planes:
+  Cover: 4
+  Implied bound: 76
+  Clique: 1
+  MIR: 26
+  Flow cover: 1
+  GUB cover: 2
+  Inf proof: 2
+  RLT: 1
+  Relax-and-lift: 15
+  BQP: 1
+
+Explored 312 nodes (11440 simplex iterations) in 0.54 seconds (0.64 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 9: 1.16136 1.19946 1.20209 ... 1.56321
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.161355475446e+00, best bound 1.161355475446e+00, gap 0.0000%
+
+User-callback calls 1317, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:54:05 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:54:05 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3299 rows, 1278 columns and 11391 nonzeros
+Model fingerprint: 0xf3eae2ce
+Variable types: 454 continuous, 824 integer (824 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2143 rows and 916 columns
+Presolve time: 0.03s
+Presolved: 1156 rows, 362 columns, 4994 nonzeros
+Variable types: 251 continuous, 111 integer (111 binary)
+Found heuristic solution: objective 1.5632095
+
+Root relaxation: objective 1.156417e+00, 410 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.15642    0   38    1.56321    1.15642  26.0%     -    0s
+     0     0    1.15642    0   57    1.56321    1.15642  26.0%     -    0s
+     0     0    1.15642    0   57    1.56321    1.15642  26.0%     -    0s
+H    0     0                       1.3061589    1.15642  11.5%     -    0s
+     0     0    1.15642    0   14    1.30616    1.15642  11.5%     -    0s
+H    0     0                       1.2825155    1.15642  9.83%     -    0s
+H    0     0                       1.2485700    1.15642  7.38%     -    0s
+     0     0    1.15642    0   15    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    1    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    1    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    2    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     0    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+     0     2    1.15642    0    7    1.24857    1.15642  7.38%     -    0s
+
+Cutting planes:
+  Learned: 10
+  Gomory: 2
+  Cover: 5
+  Implied bound: 158
+  MIR: 39
+  Inf proof: 2
+  RLT: 19
+  Relax-and-lift: 11
+  BQP: 1
+  PSD: 1
+
+Explored 375 nodes (12181 simplex iterations) in 0.55 seconds (0.54 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 1.24857 1.28252 1.30616 1.56321 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.248570007058e+00, best bound 1.248570007058e+00, gap 0.0000%
+
+User-callback calls 1466, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:54:17 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:54:17 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2811 rows, 1189 columns and 8886 nonzeros
+Model fingerprint: 0x74e00773
+Variable types: 374 continuous, 815 integer (815 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2728 rows and 1118 columns
+Presolve time: 0.01s
+Presolved: 83 rows, 71 columns, 275 nonzeros
+Variable types: 70 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.2273279
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.22733 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227327896482e+00, best bound 1.227327896482e+00, gap 0.0000%
+
+User-callback calls 815, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:55:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:55:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 13979 rows, 5557 columns and 42787 nonzeros
+Model fingerprint: 0x29da3ed2
+Variable types: 1574 continuous, 3983 integer (3983 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 13605 rows and 5247 columns
+Presolve time: 0.03s
+Presolved: 374 rows, 310 columns, 1181 nonzeros
+Variable types: 308 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3146660
+
+Root relaxation: objective 2.312833e+00, 143 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.3128333    2.31283  0.00%     -    0s
+
+Explored 1 nodes (143 simplex iterations) in 0.04 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2.31283 2.31467 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1045, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:55:15 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:55:15 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 16499 rows, 5997 columns and 55408 nonzeros
+Model fingerprint: 0x7d2ed1d7
+Variable types: 1994 continuous, 4003 integer (4003 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 13226 rows and 4917 columns
+Presolve time: 0.16s
+Presolved: 3273 rows, 1080 columns, 13369 nonzeros
+Variable types: 984 continuous, 96 integer (96 binary)
+Found heuristic solution: objective 2.3128333
+
+Root relaxation: objective 2.185163e+00, 1427 iterations, 0.07 seconds (0.14 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.18516    0   40    2.31283    2.18516  5.52%     -    0s
+     0     0     cutoff    0         2.31283    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 5
+  Gomory: 7
+  Cover: 7
+  Implied bound: 230
+  Clique: 16
+  MIR: 99
+  Flow cover: 3
+  RLT: 59
+  Relax-and-lift: 12
+  BQP: 18
+  PSD: 6
+
+Explored 1 nodes (2386 simplex iterations) in 0.46 seconds (0.61 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (3.9871e-06) exceeds tolerance
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 999, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:55:33 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:55:33 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10963 rows, 4030 columns and 42632 nonzeros
+Model fingerprint: 0x4acf4a7b
+Variable types: 2190 continuous, 1840 integer (1840 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 8292 rows and 2802 columns
+Presolve time: 0.14s
+Presolved: 2671 rows, 1228 columns, 10426 nonzeros
+Variable types: 900 continuous, 328 integer (328 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds (0.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1118, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:56:15 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:56:15 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10963 rows, 4030 columns and 42632 nonzeros
+Model fingerprint: 0x4acf4a7b
+Variable types: 2190 continuous, 1840 integer (1840 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 8292 rows and 2802 columns
+Presolve time: 0.13s
+Presolved: 2671 rows, 1228 columns, 10426 nonzeros
+Variable types: 900 continuous, 328 integer (328 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.14 seconds (0.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1119, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:57:42 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:57:49 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10963 rows, 4030 columns and 42632 nonzeros
+Model fingerprint: 0x4acf4a7b
+Variable types: 2190 continuous, 1840 integer (1840 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 8292 rows and 2802 columns
+Presolve time: 0.12s
+Presolved: 2671 rows, 1228 columns, 10426 nonzeros
+Variable types: 900 continuous, 328 integer (328 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.14 seconds (0.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1118, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:58:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 10:58:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 210 rows, 90 columns and 523 nonzeros
+Model fingerprint: 0x61a52ec1
+Variable types: 55 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 210 rows and 82 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 8 columns, 0 nonzeros
+Variable types: 3 continuous, 5 integer (5 binary)
+Found heuristic solution: objective 1.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+User-callback calls 292, time in user-callback 0.00 sec
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+IIS computation: initial model status unknown, solving to determine model status
+Presolve removed 210 rows and 82 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 8 columns, 0 nonzeros
+Variable types: 3 continuous, 5 integer (5 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:38:28 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:38:33 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 16499 rows, 5997 columns and 55408 nonzeros
+Model fingerprint: 0x7d2ed1d7
+Variable types: 1994 continuous, 4003 integer (4003 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 13226 rows and 4917 columns
+Presolve time: 0.17s
+Presolved: 3273 rows, 1080 columns, 13369 nonzeros
+Variable types: 984 continuous, 96 integer (96 binary)
+Found heuristic solution: objective 2.3128333
+
+Root relaxation: objective 2.185163e+00, 1427 iterations, 0.07 seconds (0.14 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.18516    0   40    2.31283    2.18516  5.52%     -    0s
+     0     0     cutoff    0         2.31283    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 5
+  Gomory: 7
+  Cover: 7
+  Implied bound: 230
+  Clique: 16
+  MIR: 99
+  Flow cover: 3
+  RLT: 59
+  Relax-and-lift: 12
+  BQP: 18
+  PSD: 6
+
+Explored 1 nodes (2386 simplex iterations) in 0.47 seconds (0.61 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (3.9871e-06) exceeds tolerance
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 995, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:45:21 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:45:21 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 16499 rows, 5997 columns and 55408 nonzeros
+Model fingerprint: 0x7d2ed1d7
+Variable types: 1994 continuous, 4003 integer (4003 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 13226 rows and 4917 columns
+Presolve time: 0.18s
+Presolved: 3273 rows, 1080 columns, 13369 nonzeros
+Variable types: 984 continuous, 96 integer (96 binary)
+Found heuristic solution: objective 2.3128333
+
+Root relaxation: objective 2.185163e+00, 1427 iterations, 0.07 seconds (0.14 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.18516    0   40    2.31283    2.18516  5.52%     -    0s
+     0     0     cutoff    0         2.31283    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 5
+  Gomory: 7
+  Cover: 7
+  Implied bound: 230
+  Clique: 16
+  MIR: 99
+  Flow cover: 3
+  RLT: 59
+  Relax-and-lift: 12
+  BQP: 18
+  PSD: 6
+
+Explored 1 nodes (2386 simplex iterations) in 0.49 seconds (0.61 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (3.9871e-06) exceeds tolerance
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 997, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:48:13 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:48:13 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10963 rows, 4030 columns and 42632 nonzeros
+Model fingerprint: 0x4acf4a7b
+Variable types: 2190 continuous, 1840 integer (1840 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 8292 rows and 2802 columns
+Presolve time: 0.15s
+Presolved: 2671 rows, 1228 columns, 10426 nonzeros
+Variable types: 900 continuous, 328 integer (328 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.17 seconds (0.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1120, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:49:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:49:01 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10963 rows, 4030 columns and 42632 nonzeros
+Model fingerprint: 0x4acf4a7b
+Variable types: 2190 continuous, 1840 integer (1840 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 8292 rows and 2802 columns
+Presolve time: 0.13s
+Presolved: 2671 rows, 1228 columns, 10426 nonzeros
+Variable types: 900 continuous, 328 integer (328 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.14 seconds (0.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1119, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:51:29 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:51:29 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10963 rows, 4030 columns and 42632 nonzeros
+Model fingerprint: 0x4acf4a7b
+Variable types: 2190 continuous, 1840 integer (1840 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 8292 rows and 2802 columns
+Presolve time: 0.13s
+Presolved: 2671 rows, 1228 columns, 10426 nonzeros
+Variable types: 900 continuous, 328 integer (328 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds (0.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1118, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:51:44 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:51:44 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 16499 rows, 5997 columns and 55408 nonzeros
+Model fingerprint: 0x7d2ed1d7
+Variable types: 1994 continuous, 4003 integer (4003 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 13226 rows and 4917 columns
+Presolve time: 0.20s
+Presolved: 3273 rows, 1080 columns, 13369 nonzeros
+Variable types: 984 continuous, 96 integer (96 binary)
+Found heuristic solution: objective 2.3128333
+
+Root relaxation: objective 2.185163e+00, 1427 iterations, 0.08 seconds (0.14 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.18516    0   40    2.31283    2.18516  5.52%     -    0s
+     0     0     cutoff    0         2.31283    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 5
+  Gomory: 7
+  Cover: 7
+  Implied bound: 230
+  Clique: 16
+  MIR: 99
+  Flow cover: 3
+  RLT: 59
+  Relax-and-lift: 12
+  BQP: 18
+  PSD: 6
+
+Explored 1 nodes (2386 simplex iterations) in 0.52 seconds (0.61 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (3.9871e-06) exceeds tolerance
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1005, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:16 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:17 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 6879 rows, 2827 columns and 21246 nonzeros
+Model fingerprint: 0xc4c0a58c
+Variable types: 824 continuous, 2003 integer (2003 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 6694 rows and 2668 columns
+Presolve time: 0.01s
+Presolved: 185 rows, 159 columns, 586 nonzeros
+Variable types: 158 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 2.3146660
+
+Root relaxation: objective 1.588219e+00, 68 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.5882189    1.58822  0.00%     -    0s
+
+Explored 1 nodes (68 simplex iterations) in 0.03 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.58822 2.31467 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.588218871129e+00, best bound 1.588218871129e+00, gap 0.0000%
+
+User-callback calls 924, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:28 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:28 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3479 rows, 1462 columns and 10916 nonzeros
+Model fingerprint: 0xda2ee98e
+Variable types: 449 continuous, 1013 integer (1013 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 3378 rows and 1377 columns
+Presolve time: 0.01s
+Presolved: 101 rows, 85 columns, 334 nonzeros
+Variable types: 84 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.2273279
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.22733 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227327896482e+00, best bound 1.227327896482e+00, gap 0.0000%
+
+User-callback calls 798, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:40 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:40 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4151 rows, 1735 columns and 12958 nonzeros
+Model fingerprint: 0xa23fc225
+Variable types: 524 continuous, 1211 integer (1211 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 4034 rows and 1632 columns
+Presolve time: 0.01s
+Presolved: 117 rows, 103 columns, 368 nonzeros
+Variable types: 102 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 2.3146660
+
+Root relaxation: objective 1.561571e+00, 45 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.5615707    1.56157  0.00%     -    0s
+
+Explored 1 nodes (45 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.56157 2.31467 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.561570741083e+00, best bound 1.561570741083e+00, gap 0.0000%
+
+User-callback calls 913, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:56 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:52:57 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 7571 rows, 3100 columns and 23329 nonzeros
+Model fingerprint: 0x542e0fbe
+Variable types: 899 continuous, 2201 integer (2201 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 7355 rows and 2920 columns
+Presolve time: 0.02s
+Presolved: 216 rows, 180 columns, 684 nonzeros
+Variable types: 178 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3146660
+
+Root relaxation: objective 2.312833e+00, 78 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.3128333    2.31283  0.00%     -    0s
+
+Explored 1 nodes (78 simplex iterations) in 0.03 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2.31283 2.31467 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1150, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:10 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:11 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 6879 rows, 2827 columns and 21227 nonzeros
+Model fingerprint: 0xd9232a9b
+Variable types: 824 continuous, 2003 integer (2003 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 6680 rows and 2661 columns
+Presolve time: 0.02s
+Presolved: 199 rows, 166 columns, 629 nonzeros
+Variable types: 164 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3146660
+
+Root relaxation: objective 2.312833e+00, 75 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.3128333    2.31283  0.00%     -    0s
+
+Explored 1 nodes (75 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2.31283 2.31467 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 1146, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:24 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:24 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3479 rows, 1462 columns and 10916 nonzeros
+Model fingerprint: 0xda2ee98e
+Variable types: 449 continuous, 1013 integer (1013 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 3378 rows and 1377 columns
+Presolve time: 0.02s
+Presolved: 101 rows, 85 columns, 334 nonzeros
+Variable types: 84 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.2273279
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.22733 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227327896482e+00, best bound 1.227327896482e+00, gap 0.0000%
+
+User-callback calls 798, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2147 rows, 916 columns and 6868 nonzeros
+Model fingerprint: 0x11bd003b
+Variable types: 299 continuous, 617 integer (617 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2081 rows and 858 columns
+Presolve time: 0.00s
+Presolved: 66 rows, 58 columns, 215 nonzeros
+Variable types: 57 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5615699
+
+Root relaxation: objective 1.227538e+00, 36 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2275381    1.22754  0.00%     -    0s
+
+Explored 1 nodes (36 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.22754 1.56157 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227538132039e+00, best bound 1.227538132039e+00, gap 0.0000%
+
+User-callback calls 838, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:50 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:53:50 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1487 rows, 643 columns and 4862 nonzeros
+Model fingerprint: 0x61e61b91
+Variable types: 224 continuous, 419 integer (419 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 1440 rows and 598 columns
+Presolve time: 0.00s
+Presolved: 47 rows, 45 columns, 147 nonzeros
+Variable types: 44 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5607685
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.560768527825e+00, best bound 1.560768527825e+00, gap 0.0000%
+
+User-callback calls 788, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:54:01 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:54:01 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0xd84bc7d1
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 801 rows and 340 columns
+Presolve time: 0.02s
+Presolved: 30 rows, 30 columns, 96 nonzeros
+Variable types: 29 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5607685
+
+Root relaxation: objective 1.227538e+00, 20 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2275381    1.22754  0.00%     -    0s
+
+Explored 1 nodes (20 simplex iterations) in 0.07 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.22754 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227538132039e+00, best bound 1.227538132039e+00, gap 0.0000%
+
+User-callback calls 711, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:54:11 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:54:11 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0x698af30f
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 802 rows and 340 columns
+Presolve time: 0.00s
+Presolved: 29 rows, 30 columns, 92 nonzeros
+Variable types: 29 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5607685
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.560768527825e+00, best bound 1.560768527825e+00, gap 0.0000%
+
+User-callback calls 787, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:15 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:15 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0xd84bc7d1
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 801 rows and 340 columns
+Presolve time: 0.00s
+Presolved: 30 rows, 30 columns, 96 nonzeros
+Variable types: 29 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5607685
+
+Root relaxation: objective 1.227538e+00, 20 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2275381    1.22754  0.00%     -    0s
+
+Explored 1 nodes (20 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.22754 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227538132039e+00, best bound 1.227538132039e+00, gap 0.0000%
+
+User-callback calls 708, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:29 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:29 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0xbe6c8c59
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 801 rows and 340 columns
+Presolve time: 0.00s
+Presolved: 30 rows, 30 columns, 94 nonzeros
+Variable types: 29 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5607685
+
+Root relaxation: objective 1.227328e+00, 17 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2273279    1.22733  0.00%     -    0s
+
+Explored 1 nodes (17 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.22733 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227327896482e+00, best bound 1.227327896482e+00, gap 0.0000%
+
+User-callback calls 741, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4827 rows, 2008 columns and 15012 nonzeros
+Model fingerprint: 0xc2baa6ae
+Variable types: 599 continuous, 1409 integer (1409 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 4689 rows and 1894 columns
+Presolve time: 0.02s
+Presolved: 138 rows, 114 columns, 453 nonzeros
+Variable types: 113 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.2275381
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.22754 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227538132039e+00, best bound 1.227538132039e+00, gap 0.0000%
+
+User-callback calls 835, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:55 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:55:55 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4151 rows, 1735 columns and 12958 nonzeros
+Model fingerprint: 0xdc7300b9
+Variable types: 524 continuous, 1211 integer (1211 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 4027 rows and 1632 columns
+Presolve time: 0.03s
+Presolved: 124 rows, 103 columns, 402 nonzeros
+Variable types: 102 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.3614993
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.3615 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.361499289692e+00, best bound 1.361499289692e+00, gap 0.0000%
+
+User-callback calls 1053, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:05 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:05 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4151 rows, 1735 columns and 12939 nonzeros
+Model fingerprint: 0xf8490327
+Variable types: 524 continuous, 1211 integer (1211 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 4023 rows and 1628 columns
+Presolve time: 0.01s
+Presolved: 128 rows, 107 columns, 402 nonzeros
+Variable types: 105 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 990, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:20 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:20 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2147 rows, 916 columns and 6868 nonzeros
+Model fingerprint: 0x931e536e
+Variable types: 299 continuous, 617 integer (617 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2086 rows and 860 columns
+Presolve time: 0.00s
+Presolved: 61 rows, 56 columns, 194 nonzeros
+Variable types: 55 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 924, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4151 rows, 1735 columns and 12958 nonzeros
+Model fingerprint: 0xdc7300b9
+Variable types: 524 continuous, 1211 integer (1211 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 4027 rows and 1632 columns
+Presolve time: 0.01s
+Presolved: 124 rows, 103 columns, 402 nonzeros
+Variable types: 102 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.3614993
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.3615 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.361499289692e+00, best bound 1.361499289692e+00, gap 0.0000%
+
+User-callback calls 1053, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:49 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:56:49 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0xa912dea2
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 804 rows and 343 columns
+Presolve time: 0.03s
+Presolved: 27 rows, 27 columns, 90 nonzeros
+Variable types: 26 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5622280
+
+Root relaxation: objective 1.227328e+00, 16 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2273279    1.22733  0.00%     -    0s
+
+Explored 1 nodes (16 simplex iterations) in 0.04 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.22733 1.56223 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.227327896482e+00, best bound 1.227327896482e+00, gap 0.0000%
+
+User-callback calls 812, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:18 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:19 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2811 rows, 1189 columns and 8867 nonzeros
+Model fingerprint: 0x39c515e7
+Variable types: 374 continuous, 815 integer (815 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 2716 rows and 1109 columns
+Presolve time: 0.01s
+Presolved: 95 rows, 80 columns, 296 nonzeros
+Variable types: 78 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 974, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:27 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:27 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0x126f8bd7
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 803 rows and 341 columns
+Presolve time: 0.00s
+Presolved: 28 rows, 29 columns, 88 nonzeros
+Variable types: 28 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.0384e-06) exceeds tolerance
+Warning: max bound violation (1.1155e-06) exceeds tolerance
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 706, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0x7316602c
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 791 rows and 337 columns
+Presolve time: 0.01s
+Presolved: 40 rows, 33 columns, 121 nonzeros
+Variable types: 32 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 2.3128333
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312832287536e+00, gap 0.0000%
+
+User-callback calls 836, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:52 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:57:52 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 831 rows, 370 columns and 2868 nonzeros
+Model fingerprint: 0x0e0afd51
+Variable types: 149 continuous, 221 integer (221 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 800 rows and 340 columns
+Presolve time: 0.00s
+Presolved: 31 rows, 30 columns, 101 nonzeros
+Variable types: 29 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.5607685
+
+Root relaxation: objective 1.235737e+00, 19 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2357367    1.23574  0.00%     -    0s
+
+Explored 1 nodes (19 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.23574 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.235736663060e+00, best bound 1.235736663060e+00, gap 0.0000%
+
+User-callback calls 824, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:58:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:58:00 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1487 rows, 643 columns and 4843 nonzeros
+Model fingerprint: 0x0c4386d0
+Variable types: 224 continuous, 419 integer (419 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 1436 rows and 595 columns
+Presolve time: 0.07s
+Presolved: 51 rows, 48 columns, 170 nonzeros
+Variable types: 46 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 1.5607677
+
+Root relaxation: objective 1.235737e+00, 29 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       1.2357367    1.23574  0.00%     -    0s
+
+Explored 1 nodes (29 simplex iterations) in 0.07 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.23574 1.56077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.235736663060e+00, best bound 1.235736663060e+00, gap 0.0000%
+
+User-callback calls 770, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:58:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:58:37 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 5507 rows, 2281 columns and 17078 nonzeros
+Model fingerprint: 0xc8db8519
+Variable types: 674 continuous, 1607 integer (1607 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 5349 rows and 2152 columns
+Presolve time: 0.01s
+Presolved: 158 rows, 129 columns, 516 nonzeros
+Variable types: 128 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.2302689
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.23027 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.230268903642e+00, best bound 1.230268903642e+00, gap 0.0000%
+
+User-callback calls 878, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:58:52 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:58:52 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 8967 rows, 3646 columns and 27588 nonzeros
+Model fingerprint: 0xd8ed515b
+Variable types: 1049 continuous, 2597 integer (2597 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 8715 rows and 3443 columns
+Presolve time: 0.02s
+Presolved: 252 rows, 203 columns, 819 nonzeros
+Variable types: 202 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 1.3614993
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1.3615 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.361499289692e+00, best bound 1.361499289692e+00, gap 0.0000%
+
+User-callback calls 976, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:59:10 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:59:10 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 11091 rows, 4465 columns and 34019 nonzeros
+Model fingerprint: 0x69289996
+Variable types: 1274 continuous, 3191 integer (3191 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 10787 rows and 4211 columns
+Presolve time: 0.01s
+Presolved: 304 rows, 254 columns, 965 nonzeros
+Variable types: 252 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3128326
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312832623588e+00, best bound 2.312832287536e+00, gap 0.0000%
+
+User-callback calls 1039, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:59:25 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:59:25 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 11807 rows, 4738 columns and 36193 nonzeros
+Model fingerprint: 0xfa269444
+Variable types: 1349 continuous, 3389 integer (3389 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 11485 rows and 4469 columns
+Presolve time: 0.02s
+Presolved: 322 rows, 269 columns, 1020 nonzeros
+Variable types: 267 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3128326
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312832623588e+00, best bound 2.312832287536e+00, gap 0.0000%
+
+User-callback calls 1040, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:59:38 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 14:59:38 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 12527 rows, 5011 columns and 38379 nonzeros
+Model fingerprint: 0xe19356c6
+Variable types: 1424 continuous, 3587 integer (3587 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 3e+01]
+Presolve removed 12190 rows and 4730 columns
+Presolve time: 0.02s
+Presolved: 337 rows, 281 columns, 1069 nonzeros
+Variable types: 279 continuous, 2 integer (2 binary)
+Found heuristic solution: objective 2.3128326
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312832623588e+00, best bound 2.312832287536e+00, gap 0.0000%
+
+User-callback calls 1040, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 15:01:23 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 15:01:23 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 9099 rows, 3640 columns and 36918 nonzeros
+Model fingerprint: 0xd50cf3c8
+Variable types: 1980 continuous, 1660 integer (1660 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 7586 rows and 2688 columns
+Presolve time: 0.03s
+Presolved: 1513 rows, 952 columns, 5050 nonzeros
+Variable types: 671 continuous, 281 integer (281 binary)
+
+Root relaxation: objective 2.312833e+00, 552 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.31283    0    6          -    2.31283      -     -    0s
+     0     0    2.31283    0    5          -    2.31283      -     -    0s
+     0     0    2.31283    0    5          -    2.31283      -     -    0s
+H    0     0                       2.3128333    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 3
+  Gomory: 1
+  Cover: 1
+  Implied bound: 1
+  Clique: 1
+  MIR: 94
+  Relax-and-lift: 6
+
+Explored 1 nodes (925 simplex iterations) in 0.27 seconds (0.12 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 815, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 15:10:35 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 15:10:41 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 9099 rows, 3640 columns and 36918 nonzeros
+Model fingerprint: 0xd50cf3c8
+Variable types: 1980 continuous, 1660 integer (1660 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 7586 rows and 2688 columns
+Presolve time: 0.02s
+Presolved: 1513 rows, 952 columns, 5050 nonzeros
+Variable types: 671 continuous, 281 integer (281 binary)
+
+Root relaxation: objective 2.312833e+00, 552 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.31283    0    6          -    2.31283      -     -    0s
+     0     0    2.31283    0    5          -    2.31283      -     -    0s
+     0     0    2.31283    0    5          -    2.31283      -     -    0s
+H    0     0                       2.3128333    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 3
+  Gomory: 1
+  Cover: 1
+  Implied bound: 1
+  Clique: 1
+  MIR: 94
+  Relax-and-lift: 6
+
+Explored 1 nodes (925 simplex iterations) in 0.19 seconds (0.12 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 834, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 15:10:54 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Thu Sep 26 15:10:54 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 210 rows, 90 columns and 523 nonzeros
+Model fingerprint: 0x61a52ec1
+Variable types: 55 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 210 rows and 82 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 8 columns, 0 nonzeros
+Variable types: 3 continuous, 5 integer (5 binary)
+Found heuristic solution: objective 1.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+User-callback calls 293, time in user-callback 0.00 sec
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 23.6.0 23G93)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+IIS computation: initial model status unknown, solving to determine model status
+Presolve removed 210 rows and 82 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 8 columns, 0 nonzeros
+Variable types: 3 continuous, 5 integer (5 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.0 (mac64[arm]) logging started Wed Nov  6 09:35:39 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Wed Nov  6 09:35:43 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.0.0 24A348)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 9099 rows, 3640 columns and 36918 nonzeros
+Model fingerprint: 0xd50cf3c8
+Variable types: 1980 continuous, 1660 integer (1660 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-02, 2e+01]
+Presolve removed 7586 rows and 2688 columns
+Presolve time: 0.02s
+Presolved: 1513 rows, 952 columns, 5050 nonzeros
+Variable types: 671 continuous, 281 integer (281 binary)
+
+Root relaxation: objective 2.312833e+00, 552 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.31283    0    6          -    2.31283      -     -    0s
+     0     0    2.31283    0    5          -    2.31283      -     -    0s
+     0     0    2.31283    0    5          -    2.31283      -     -    0s
+H    0     0                       2.3128333    2.31283  0.00%     -    0s
+
+Cutting planes:
+  Learned: 3
+  Gomory: 1
+  Cover: 1
+  Implied bound: 1
+  Clique: 1
+  MIR: 94
+  Relax-and-lift: 6
+
+Explored 1 nodes (925 simplex iterations) in 0.08 seconds (0.12 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2.31283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.312833333333e+00, best bound 2.312833333333e+00, gap 0.0000%
+
+User-callback calls 793, time in user-callback 0.00 sec
+
+Gurobi 11.0.0 (mac64[arm]) logging started Wed Nov  6 09:35:52 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+
+Gurobi 11.0.0 (mac64[arm]) logging started Wed Nov  6 09:35:52 2024
+
+Set parameter LogFile to value "my_log_file.txt"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.0.0 24A348)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 210 rows, 90 columns and 523 nonzeros
+Model fingerprint: 0x61a52ec1
+Variable types: 55 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 210 rows and 82 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 8 columns, 0 nonzeros
+Variable types: 3 continuous, 5 integer (5 binary)
+Found heuristic solution: objective 1.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+User-callback calls 292, time in user-callback 0.00 sec
+Gurobi Optimizer version 11.0.0 build v11.0.0rc2 (mac64[arm] - Darwin 24.0.0 24A348)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+IIS computation: initial model status unknown, solving to determine model status
+Presolve removed 210 rows and 82 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 8 columns, 0 nonzeros
+Variable types: 3 continuous, 5 integer (5 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+IIS runtime: 0.00 seconds (0.00 work units)
